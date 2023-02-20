@@ -1,0 +1,140 @@
+/* Style the header with a grey background and some padding */
+body{
+    min-height: auto;
+}
+
+.header{
+    background-color: black;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 1rem 0;
+    position: fixed;
+    top: 0;
+}
+
+.logo-container{
+    display: flex;
+    align-items: center;
+    width: 15%;
+}
+
+.logo-header{
+    justify-content: center;
+}
+
+.btn-menu{
+    width: 2.5em;
+    padding-right: 1em;
+    align-items: center;
+
+}
+
+.btn-return{
+    padding-left: 1em;
+    width: 2.2em;
+    height: 2.2em;    
+}
+
+.section-2{
+    margin-top: 4em;
+}
+
+.user-data-section{
+    font-size: 1em;
+    background-color: #E5E5E5;
+    padding: 1.2em 2em;
+
+}
+
+.user-data-section .unidad-info{
+    font-size: .7em;
+    letter-spacing: .1em;
+    font-weight: lighter;
+}
+
+.user-data-section .bienvenida{
+    font-weight: 500;
+}
+
+.user-data-section .unidad-info b{
+    font-weight: bold;
+}
+
+.seleccion{
+    font-size: .9em;
+    padding: 0 1.5em;
+}
+
+.seleccion .pregunta{
+    padding: 2em 0;
+    text-align: center;
+}
+
+.form{
+    font-weight: 500;
+}
+
+.form .input-radio-seleccion{
+    display: flex;
+    justify-content: space-between;
+    padding: 1em 0.2em;
+    border-top: #DDDDDD solid 0.5px;
+
+}
+
+#last-input{
+    border-bottom: #DDDDDD solid 0.5px;
+}
+
+.seleccion form p{
+    justify-content: center;    
+}
+
+.btn-menu svg{
+    fill: white;
+}
+
+.footer-button{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+    padding-bottom: 1em;
+    padding-top: 1em;
+    border-top: #DDDDDD solid 0.5px;
+}
+
+.footer-button .btn-seleccion{
+    /* align-items: center; */
+    color: #FFFFFF;
+    background-color: #AFAFAF;
+    padding-right: 4em;
+    padding-left: 4em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    border-radius: 0.3em;
+}
+
+.footer-button .btn-seleccion :active{
+    background-color: black;
+}
+
+@media (max-height: 600px) {
+
+    .footer-button{
+        border-top: 0;
+    }
+  }
+
+@media (min-width: 700px) {
+    .section-2{
+        margin-top: 5.5em;
+    }
+    .btn-return{
+        margin-top: 0.5em;
+        width: 2.6em;
+        height: 2.6em;
+    }
+  }

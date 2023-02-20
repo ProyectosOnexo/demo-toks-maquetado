@@ -1,13 +1,24 @@
 /* Style the header with a grey background and some padding */
+/* body{
+    min-height: auto;
+} */
+
+.container{
+    position: relative;
+}
+
 .header{
     background-color: black;
     display: flex;
     width: 100%;
     justify-content: space-between;
     padding: 1rem 0;
+    position: fixed;
+    top: 0;
+    height: 4em;
 }
 
-.logo{
+.logo-container{
     display: flex;
     align-items: center;
     width: 15%;
@@ -15,23 +26,38 @@
 
 .logo-header{
     justify-content: center;
-
 }
 
 .btn-menu{
     width: 2.5em;
     padding-right: 1em;
+    
+}
+
+.btn-menu svg{
+    fill: white;
 }
 
 .btn-return{
     padding-left: 1em;
+    width: 2.2em;
+    height: 2.2em;
 }
 
+/* BODY */
 
+/* Data user info */
+.section-2{
+    position: relative;
+    width: 100%;
+    margin-top: 4rem;
+}
 .user-data-section{
     font-size: 1em;
     background-color: #E5E5E5;
     padding: 1.2em 2em;
+    width: 100%;
+    position: fixed;
 }
 
 .user-data-section .unidad-info{
@@ -40,32 +66,66 @@
     font-weight: lighter;
 }
 
+.user-data-section .bienvenida{
+    font-weight: 500;
+}
+
 .user-data-section .unidad-info b{
     font-weight: bold;
 }
 
-.seleccion{
-    font-size: .9em;
-    font-weight: normal;
-    padding: 0 1.5em;
-    border-bottom: 1px solid rgba(164, 164, 164, 0.55);
+/* Content */
+
+.content{
+    position: absolute;
+    background-color: white;
+    width: 100%;
+    margin-top: 5em;
+    height: 100%;
+    z-index: -1;
 }
 
-.seleccion .pregunta{
-    padding: 2em 0;
+.search{
+    width: 100%;
+    height: 6em;
 }
 
-.form .input-radio-seleccion{
-    display: flex;
-    justify-content: space-between;
+.input-wrapper {
+    position: relative;
+    width: 90%;
+    top: 25%;
+    left: 5%;
 
+  }
+  
+  .input {
+    box-sizing: border-box;
+    color: #191919;
+    padding: 10px 20px 10px 40px;
+    background-color: #E5E5E5;
+    width: 100%;
+    border-radius: 10px;
+  }
+
+  .input-icon {
+    color: #191919;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+.suggestions{
+    /* background-color: blue; */
+    width: 100%;
+    height: 50%;
 }
 
-.seleccion form p{
-    justify-content: center;
-    padding: 1em 0;
+.categories{
+    /* background-color: red; */
+    width: 100%;
+    height: 100%;
 }
 
-.btn-menu svg{
-    fill: white;
-}

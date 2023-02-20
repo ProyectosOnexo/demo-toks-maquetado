@@ -10,55 +10,45 @@
         <!-- ESTILOS DE PÁGINA -->
         <link rel="stylesheet" href="../css/home.css">
     </head>
-    <body>
+    <body class="container">
 
         <div class="header">
             <button class="btn-return">
-                <svg height="1em" width="1em" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 54 54" xml:space="preserve" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g> <g> <path style="fill:#ffffff;" d="M27,1L27,1c14.359,0,26,11.641,26,26v0c0,14.359-11.641,26-26,26h0C12.641,53,1,41.359,1,27v0 C1,12.641,12.641,1,27,1z"></path> <path style="fill:#ffffff;" d="M27,54C12.112,54,0,41.888,0,27S12.112,0,27,0s27,12.112,27,27S41.888,54,27,54z M27,2 C13.215,2,2,13.215,2,27s11.215,25,25,25s25-11.215,25-25S40.785,2,27,2z"></path> </g> <path style="fill:#000000;" d="M31.706,40c-0.256,0-0.512-0.098-0.707-0.293L19.501,28.209c-0.667-0.667-0.667-1.751,0-2.418 l11.498-11.498c0.391-0.391,1.023-0.391,1.414,0s0.391,1.023,0,1.414L21.12,27l11.293,11.293c0.391,0.391,0.391,1.023,0,1.414 C32.218,39.902,31.962,40,31.706,40z"></path> </g> </g>
-                </svg>
+                <img src="../assets/atras.svg" alt="boton-regresar">
             </button>	
-            <div class="logo">
-                <img class="logo-header" 
-            src="../assets/toks-logo.svg" alt="Logo de marca"> 
+            <div class="logo-container">
+                <img class="logo-header" src="../assets/toks-logo.svg" alt="Logo de marca"> 
             </div>
             <button class="btn-menu">
-                <svg fill="#fff" height="1em" width="1em" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" transform="rotate(90)"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path d="M8 2.5a1.22 1.22 0 0 1 1.25 1.17A1.21 1.21 0 0 1 8 4.84a1.21 1.21 0 0 1-1.25-1.17A1.22 1.22 0 0 1 8 2.5zm0 8.66a1.17 1.17 0 1 1-1.25 1.17A1.21 1.21 0 0 1 8 11.16zm0-4.33a1.17 1.17 0 1 1 0 2.34 1.17 1.17 0 1 1 0-2.34z"></path></g></svg>
+                <img src="../assets/menu hamburguesa.svg" alt="menu-hamburguesa">
             </button>
         </div>
     
-        <div class="user-data-section">
-            <p class="bienvenida">Hola Lucas, ¡Nos encanta que estés aquí!</p>
-            <p class="unidad-info">Restaurante: <b>Toks MAQ</b> / Mesa: <b>10</b></p>
+        <div class="section-2">
+            <div class="user-data-section">
+                <p class="bienvenida">Hola Lucass, ¡Nos encanta que estés aquí!</p>
+                <p class="unidad-info">Restaurante: <b>Toks MAQ</b> / Mesa: <b>10</b></p>
+            </div>
         </div>
-        <div class="seleccion">
-            <p class="pregunta">¿Cuantas personas ordenarán desde tu aplicación?</p>
-                <form action="" method="post" class="form">
-                    <div class="input-radio-seleccion">
-                      <p>1 persona</p>
-                      <input type="radio" name="num_person" id="">    
-                    </div>
-                    <div class="input-radio-seleccion">
-                      <p>2 personas</p>
-                      <input type="radio" name="num_person" id="">    
-                    </div>
-                    <div class="input-radio-seleccion">
-                      <p>3 personas</p>
-                      <input type="radio" name="num_person" id="">    
-                    </div>
-                    <div class="input-radio-seleccion">
-                      <p>4 personas</p>
-                      <input type="radio" name="num_person" id="">    
-                    </div>
-                    <div class="input-radio-seleccion">
-                      <p>5 o mas personas</p>
-                      <input type="radio" name="num_person" id="">    
-                    </div>
-                </form>
-        </div>
-        <div class="footer-button">
-    
-            <button class="btn-seleccion">Ir al menú</button>
-    
+
+        <div class="content">
+            <div class="search">
+
+                <div class="input-wrapper">
+
+                    <input type="text" class="input" placeholder="Busca platillos, bebidas, promociones...">
+                  
+                    <img class="input-icon" src="../assets/lupa.svg" alt="">
+                </div>
+
+            </div>
+            <div class="suggestions">
+                
+            </div>
+
+            <div class="categories">
+                
+            </div>
         </div>
         
     </body>
