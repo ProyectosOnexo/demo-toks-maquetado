@@ -8,8 +8,9 @@ body{
     display: flex;
     width: 100%;
     justify-content: space-between;
+    align-items: center;
     padding: 1rem 0;
-    position: fixed;
+    position: sticky;
     top: 0;
 }
 
@@ -130,7 +131,16 @@ body{
 
 @media (min-width: 700px) {
     .section-2{
-        margin-top: 5.5em;
+        margin-top: 1%;
+        font-size: 1.7rem;
+    }
+    .seleccion{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .form{
+        width: 40%;
     }
     .btn-return{
         margin-top: 0.5em;
