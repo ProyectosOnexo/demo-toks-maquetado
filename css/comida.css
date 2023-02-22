@@ -95,3 +95,18 @@ body{
     width: 30%;
     border-radius: 10px;
 }
+
+@media (min-width: 700px) {
+.header{
+    width: 100%;
+    height: 30rem;
+    background: aqua;
+}
+.header .header__div{
+    font-size: 8em;
+}
+.header__img{
+    width:100%;
+    height: 100%;
+}
+}
