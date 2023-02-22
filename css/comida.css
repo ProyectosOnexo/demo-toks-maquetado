@@ -1,0 +1,97 @@
+body{
+    min-height: auto;
+}
+
+.header{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+.header .header__btn{
+    position: absolute;
+    left: 5%;
+    width: 7%;
+}
+.header .header__div{
+    position: absolute;
+    color: white;
+    left: 15%;
+    font-size: 2em;
+}
+
+.seleccion{
+    margin-top: 2em;
+    position: relative;
+    width: 90%;
+    top: 5%;
+    left: 5%;
+    display: flex;
+}
+.seleccion .btn{
+    margin-left: .5em;
+}
+.seleccion .btn:focus{
+    transition: all 0.2s ease-out;
+    border-bottom: 5px solid orange;
+    color: orange;
+}
+
+
+.informacion{
+    margin-top: 5em;
+    position: relative;
+    width: 90%;
+    top: 5%;
+    left: 5%;
+}
+.informacion h2{
+    font-weight: bold;
+}
+.informacion_div{
+    background: rgba(241, 158, 3, 0.541);
+    border: 1px solid orangered;
+    border-radius: 8px;
+    font-size: 90%;
+    margin-top: 1em;
+}
+.informacion_div .div__p{
+    margin-left: 2em;
+}
+.informacion__p{
+    margin-top: 1em;
+}
+
+.alimentos{
+    margin-top: 2em;
+    position: relative;
+    width: 90%;
+    top: 5%;
+    left: 5%;
+    display: flex;
+    box-shadow: 0px 1px 7px 0px rgba(0,0,0,0.75);
+}
+.alimentos .alimentos__img{
+    width: 40%;
+}
+.alimentos__div{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-left: 1em;
+    margin-top: 1em;
+}
+.precio{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1em;
+}
+.precio .precio_btn{
+    background: orangered;
+    color: white;
+    width: 30%;
+    border-radius: 10px;
+}
